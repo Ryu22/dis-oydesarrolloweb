@@ -1,0 +1,70 @@
+/* Cambia el color de fondo de la página a un blanco crema */
+body {
+  background-color: #f0f0eb; /* Color blanco crema */
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  background-color: #0c0e83;
+  padding: 10px 0;
+}
+
+/* Estilos para el logo */
+.logo img {
+  height: 100px; /* Ajusta la altura del logo según tus necesidades */
+  margin-left: 10px;
+}
+
+/* Estilos para la información de contacto */
+.contacto-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+  margin-bottom: 60px;
+  color: white;
+}
+
+.contacto-info p {
+  margin: 0 10px;
+}
+
+/* Estilos para la lista de navegación */
+.nav {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav li {
+  margin-right: 20px;
+  text-decoration: none; /* Quita el subrayado */
+  position: relative; /* Añade posición relativa */
+}
+
+/* Efecto de sombreado al pasar el cursor */
+.nav li:hover a{
+  color: #bbbbbb; /* Cambia el color de la tipografía al pasar el cursor */
+}
+
+/* Agrega el separado "|" entre los elementos de la lista*/
+.nav li:not(:last-child)::after{
+  content: "|";
+  margin-left: 10px;
+  color: black;
+}
+
+.nav a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Estilos para la línea debajo del encabezado */
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}

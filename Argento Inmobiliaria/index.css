@@ -68,3 +68,42 @@ hr {
   border-top: 1px solid #000;
   margin-top: 10px;
 }
+
+/* Estilos para el footer */
+footer {
+  background-color: #464646;
+  padding: 20px 0; /* Espaciado interno */
+  color: white; /* Color del texto */
+  text-align: center; /* Centra el contenido */
+}
+
+/* Estilos para el logo */
+.logo img {
+  height: 50px; /* Ajusta la altura del logo según tus necesidades */
+  filter: grayscale(100%);
+}
+
+/* Estilos para el texto del footer */
+.footer-text p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons-footer a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: black; /* Color de los íconos */
+}
+
+/* Estilos para la información de contacto */
+.contact-info-footer p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+/* Estilos para la información legal */
+.legal-info-footer p {
+  margin: 10px 0;
+  font-size: 10px;
+}
